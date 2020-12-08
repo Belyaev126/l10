@@ -93,7 +93,7 @@ if __name__ == '__main__':
             print(list(peoples))
 
         elif command.startswith('select '):
-            parts = command.split(' ', maxsplit=2)
+            parts = command.split(' ', maxsplit=20)
 
             sur = (parts[1])
             select(peoples)
