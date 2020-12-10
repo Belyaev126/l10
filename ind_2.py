@@ -22,7 +22,7 @@ def add(peoples, surname, name, number, year):
 
     peoples.append(people)
     if len(peoples) > 1:
-        peoples.sort(key=lambda item: item.get('number', ''))
+        peoples.sort(key=lambda item: item.get('number', '3'))
 
 def list(peoples):
     line = '+-{}-+-{}-+-{}-+-{}-+-{}-+'.format(
