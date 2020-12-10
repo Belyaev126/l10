@@ -114,7 +114,7 @@ if __name__ == '__main__':
 
         elif command.startswith('save '):
             parts = command.split(' ', maxsplit=1)
-            save(trains, parts[1])
+            save(trains, parts[1]) 
 
         elif command == 'help':
             print("Список команд:\n")
